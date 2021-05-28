@@ -1,0 +1,152 @@
+@media (max-width:1400px) {
+    #logo{
+        padding-left:10px;
+        width:80px;
+        height:40px;
+    }
+    nav button{
+        height:40px;
+        width:80px;
+    }
+    .nav-list{
+        padding:0px;
+    }
+    #shortern-link input{
+        width:60%;
+    }
+    .box{
+        height:260px;
+        width:300px;
+    }
+    #learn-more{
+        height:700px;
+    }
+    #learn-more-div{
+        height:400px;
+        margin-bottom:40px;
+    }
+    footer{
+        padding-left:30px;
+    }
+}
+@media (max-width:1100px){
+    #logo{
+        padding-right:15px;
+    }
+    .nav-list li{
+        padding:30px 10px;
+    }
+    #intro-div{
+        height:500px;
+        margin-bottom:40px;
+    }
+    #intro-div img{
+        height:270px;
+        width:350px;
+        padding-top:20px;
+    }
+    #intro-text{
+        padding-top:0px;
+        padding-left:40px;
+    }
+    .box{
+        height:400px;
+        width:200px;
+    }
+    .box img{
+        height:100px;
+        width:170px;
+    }
+    footer{
+        flex-direction: column;
+        width:700px;
+    }
+    #section-2{
+        display: block;
+        margin: auto;
+    }
+}
+@media (max-width:750px){
+    #bars{
+        display: block;
+        padding-top: 40px;
+        margin-left:auto;
+        margin-right: 10px;
+    }
+    .nav-list{
+        display: none;
+    }
+    #intro-div{
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    #intro-div img{
+        display: none;
+    }
+    #intro-text a{
+        text-align: left;
+        width: auto;
+    }
+    #intro-div button{
+        height: 50px;
+        width:200px;
+    }
+    #center-text{
+        width:100%;
+    }
+    #intro-text{
+        width:80%;
+        height: auto;
+    }
+    #learn-more{
+        height: auto;
+    }
+    #learn-more-div{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    #get-started{
+        margin-bottom:20px;
+    }
+    .box{
+        height:auto;
+        width:200px;
+    }
+    #shortern-link{
+        height:200px;
+    }
+    #shortern-link input{
+        margin-bottom: 20px;
+        width:80%;
+    }
+    #brands img{
+        display: none;
+    }
+    #images{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+    }
+    #images img{
+        display: block;
+        height:40px;
+        width:100px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    footer{
+        width: auto;
+    }
+    #section-1{
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 30px;
+        padding-left: 0px;
+    }
+    #features{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
